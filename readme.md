@@ -1,2 +1,2 @@
-# Firts Prject LP1
+# Firts Project LP1
 ### Alumno: Elias
