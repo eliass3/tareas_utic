@@ -1,5 +1,5 @@
 function calcularHipotenusa(catetoA, catetoB) {
-  // Usar los valores proporcionados o solicitar al usuario si no se proporcionan
+  // Usar los valores proporcionados
   const valorCatetoA = catetoA || parseFloat(prompt(`Ingrese el valor del cateto A:`))
   const valorCatetoB = catetoB || parseFloat(prompt(`Ingrese el valor del cateto B:`))
 
@@ -14,14 +14,8 @@ function calcularHipotenusa(catetoA, catetoB) {
   const cuadradoCatetoB = Math.pow(valorCatetoB, 2)
   const hipotenusa = Math.sqrt(cuadradoCatetoA + cuadradoCatetoB)
 
-  return hipotenusa;
+  return hipotenusa
 }
-
-// Ejemplo de uso: si proporcionas los valores directamente
-const catetoA = 3
-const catetoB = 4
-const hipotenusa = calcularHipotenusa(catetoA, catetoB)
-console.log(`La hipotenusa es: ${hipotenusa}`)
 
 // Ejemplo de uso: si no proporcionas los valores, se solicitarán con prompt
 const hipotenusaPrompt = calcularHipotenusa()
