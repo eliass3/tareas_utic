@@ -6,7 +6,7 @@ function calcularHipotenusa(catetoA, catetoB) {
   // Verificar si las entradas son válidas (números)
   if (isNaN(valorCatetoA) || isNaN(valorCatetoB)) {
     alert('Por favor, ingrese valores numéricos válidos.')
-    return NaN; // Devolver NaN si las entradas no son válidas
+    return NaN // Devolver NaN si las entradas no son válidas
   }
 
   // Calcular la hipotenusa (c)
