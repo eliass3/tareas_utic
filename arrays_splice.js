@@ -5,7 +5,7 @@ let array_numbers = [1, 2, 3, 4, 5];
 let array_names = ['Juan', 'Carlos', 'Pedro']
 
 // Array para pop
-let array_figures = [10, 20, 30, 40, 50] // Ejemplo de array con números
+let array_figures = ['cuadrado',  'Triangulo', 'Rombo'] // Ejemplo de array con números
 
 // Mostrar el array original
 console.log("Array original:", array_numbers)
