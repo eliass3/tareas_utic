@@ -8,6 +8,12 @@ lista_compras.push("Leche", "Pan", "Manzanas")
 lista_compras[1] = "Bananas"
 lista_compras.push("Huevos")
 
+// Encontrar el índice de "Manzanas"
+let index_manzanas = lista_compras.indexOf("Manzanas")
+
+// Insertar "Huevos" antes de "Manzanas"
+lista_compras.splice(index_manzanas, 1, "Huevos")
+
 // Remover el último elemento del array y mostrar en consola
 let ultimo_elemento = lista_compras.pop()
 console.log("Elemento removido:", ultimo_elemento)
