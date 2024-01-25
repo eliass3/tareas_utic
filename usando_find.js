@@ -18,7 +18,7 @@ console.log(result)
 
 // Funcion Nombre y apellido
 const full_name = (name, lastname) => {
-    return name + lastname
+    return name + 'ola' + lastname
 }
 
 const result2 = full_name('Elias', 'Moreno')
